@@ -35,20 +35,15 @@ Or paste the script directly into a <script> tag in your HTML.
 2️⃣ Let It Work Its Magic!
 
 Once the script runs, it automatically assigns unique class names to the following elements by default:
-- <div>
-- <span>
-- <p>
-- <a>
-- <article>
-- <section>
+<div>, <span>, <p>, <a>, <article>, <section>
 
 Example Output in the DOM:
-
-`<div class="content unique-div-1"></div>
+~~~
+<div class="content unique-div-1"></div>
 <p class="text unique-p-1"></p>
 <div class="box unique-div-2"></div>
-<section class="unique-section-1"></section>`
-
+<section class="unique-section-1"></section>
+~~~
 These class names persist even if the DOM updates dynamically! 🎉
 
 3️⃣ Customize the Behavior!
