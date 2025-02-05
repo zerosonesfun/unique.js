@@ -35,8 +35,9 @@ Or paste the script directly into a <script> tag in your HTML.
 2️⃣ Let It Work Its Magic!
 
 Once the script runs, it automatically assigns unique class names to the following elements by default:
+~~~
 <div>, <span>, <p>, <a>, <article>, <section>
-
+~~~
 Example Output in the DOM:
 ~~~
 <div class="content unique-div-1"></div>
@@ -53,14 +54,14 @@ Want to track additional elements? No problem!
 
 Unique.addTargetTags("ul", "li", "button");
 
-Now <ul>, <li>, and <button> elements will also receive unique class names!
+Now `<ul>`, `<li>`, and `<button>` elements will also receive unique class names!
 
 ## 👉 Exclude Certain Tags from Being Observed
 Want to ignore certain elements? Exclude them like this:
 
 Unique.excludeTags("nav", "aside");
 
-Now <nav> and <aside> elements won’t be affected!
+Now `<nav>` and `<aside>` elements won’t be affected!
 
 ## 👉 Reset to Defaults
 If you need to reset your tag selections, just call:
