@@ -52,14 +52,14 @@ These class names persist even if the DOM updates dynamically! 🎉
 ## 👉 Add More Tags to Observe
 Want to track additional elements? No problem!
 
-Unique.addTargetTags("ul", "li", "button");
+`Unique.addTargetTags("ul", "li", "button");`
 
 Now `<ul>`, `<li>`, and `<button>` elements will also receive unique class names!
 
 ## 👉 Exclude Certain Tags from Being Observed
 Want to ignore certain elements? Exclude them like this:
 
-Unique.excludeTags("nav", "aside");
+`Unique.excludeTags("nav", "aside");`
 
 Now `<nav>` and `<aside>` elements won’t be affected!
 
