@@ -1,7 +1,7 @@
 # 🦄 Unique.js
 
 Say goodbye to generic, ambiguous class names! Unique.js is a lightweight, powerful JavaScript utility that automatically assigns stable, readable, and unique class names to HTML elements. Whether you’re debugging, styling, or dynamically modifying the DOM, this script ensures every targeted element has a clear and consistent class name—without interfering with your existing styles.
-- Readable names in the DOM (unique-div-1, unique-p-3, unique-span-2
+- Readable names in the DOM (unique-div-1, unique-p-3, unique-span-2)
 - Internal UID tracking for stability (ensures uniqueness even as the DOM changes)
 - Lightweight & efficient (uses WeakMap, MutationObserver, and requestIdleCallback)
 - Customizable (easily add or exclude tags from observation)
