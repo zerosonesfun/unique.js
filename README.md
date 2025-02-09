@@ -6,6 +6,8 @@ Say goodbye to generic, ambiguous class names! Unique.js is a lightweight, power
 - Lightweight & efficient (uses WeakMap, MutationObserver, and requestIdleCallback)
 - Customizable (easily add or exclude tags from observation)
 
+[DEMO](https://codepen.io/zerosonesfun/full/raBEjBw)
+
 ## 🔥 Features
 
 ✅ Automatically assigns unique class names to targeted HTML elements
